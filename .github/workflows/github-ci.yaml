@@ -16,10 +16,7 @@ jobs:
     # Project
       projectName: 'examples'
     # Approvals
-      shamanopsBusinessApprovers: 'user1@customer.com'
-      shamanopsTechnicalApprovers: 'user2@customer.com'
-      shamanopsBusinessApproversMinimalProd: '1'
-      shamanopsTechnicalApproversMinimalProd: '1'
+      shamanopsApprovalsProd: 'false'
     secrets:
       shamanops_customer_token: ${{ secrets.shamanops_customer_token }}
       shamanops_argocd_dev_token: ${{ secrets.shamanops_argocd_dev_token }}
