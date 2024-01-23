@@ -16,9 +16,8 @@ jobs:
     # Project
       projectName: 'examples'
     # Approvals
-      shamanopsBusinessApprovers: 'juan.d.sivo@gmail.com'
       shamanopsTechnicalApprovers: 'rocajp@gmail.com'
-      shamanopsBusinessApproversMinimalProd: '1'
+      shamanopsBusinessApproversMinimalProd: '0'
       shamanopsTechnicalApproversMinimalProd: '1'
     secrets:  
       shamanops_customer_token: ${{ secrets.shamanops_customer_token }}
