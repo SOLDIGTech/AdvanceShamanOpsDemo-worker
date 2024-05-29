@@ -18,7 +18,7 @@ jobs:
 #-------------------------------------------------------------------------------------------------#
 ## Features  -------------------------------------------------------------------------------------#
     # Approvals
-      shamanopsBusinessApprovers: 'rflores@soldig.mx'
+      shamanopsBusinessApprovers: 'jvaldes@soldig.mx'
       shamanopsTechnicalApprovers: 'jtovar@soldig.mx'
       shamanopsBusinessApproversMinimalProd: '1'
       shamanopsTechnicalApproversMinimalProd: '1'
